@@ -11,7 +11,7 @@ env/
 # Data artifacts
 *.npy
 *.jpg
-
+*.csv
 # VS / IDE junk
 .vscode/
 .vs/
