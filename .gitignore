@@ -7,6 +7,8 @@ __pycache__/
 .venv/
 venv/
 env/
+.env
+nycollisionsvenv/
 
 # Data artifacts
 *.npy
@@ -15,6 +17,7 @@ env/
 # VS / IDE junk
 .vscode/
 .vs/
+.idea/
 *.suo
 *.user
 *.userosscache
