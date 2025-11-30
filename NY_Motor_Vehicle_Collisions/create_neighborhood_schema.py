@@ -25,7 +25,7 @@ def load_neighborhoods(geojson_path):
     return gdf[[NEIGHBORHOOD_COLUMN, "geometry"]]
 
 def connect_snowflake():
-    # Prompt user for the current 6-digit MFA code from the authenticator app
+    #Prompt user for the current 6-digit MFA code from the authenticator app
     passcode = input("Enter current Snowflake MFA code: ").strip()
 
     conn = snowflake.connector.connect(
